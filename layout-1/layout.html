@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>
+            Layout 
+        </title>
+        <link rel="stylesheet" href="layout.css"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="restate"><span style="color: rgb(230,143,63)">R.</span>estate</div>
+            <div class="barbuttons">
+            <button class="sideClicked"><i class="material-icons" style="vertical-align: middle;">location_city</i>  Properties</button>
+            <button class="sideNotClicked"><i class="material-icons" style="vertical-align: middle;">account_balance</i> Treasury</button>
+            <button class="sideNotClicked"><i class="material-icons" style="vertical-align: middle;">insert_chart</i> Auctions</button>
+            <button class="sideNotClicked"><i class="material-icons" style="vertical-align: middle;">account_balance_wallet</i> Wallets</button>
+            <button class="sideNotClicked"><i class="material-icons" style="vertical-align: middle;">event</i> Logs</button>
+            </div>
+            <button class="signout"><i class="material-icons" style="vertical-align: middle;">power_settings_new</i> Sign Out</button>
+        </div>
+        <div class="right">
+            <div class="header">
+                <button class="OrangeButtons">CONNECT WALLET</button>
+            </div>
+            <div class="main">
+                <div class="probar">Properties</div>
+                <div class="colnames">
+                    <button class="colClicked colb">New</button>
+                    <button class="colNotClicked colb">Published</button>
+                    <button class="colNotClicked colb">Pre-Auction</button>
+                    <button class="colNotClicked colb">On-Auction</button>
+                    <button class="colNotClicked colb">Post-Auction</button>
+                    <div class="searchbar">
+                            <i class="material-icons" style="padding: 0.5rem;vertical-align: middle;color: #ccc;">search</i>
+                            <input class="searchBox" type="search" name="search" placeholder="Search...">
+                        
+                          </div>
+                    <button class="OrangeButtons">ADD NEW PROPERTY</button>
+                </div>
+                <div class="table">
+                    <div id="table-header">
+                        <div class="inner">LOCATION</div>
+                        <div class="inner">MANAGER</div>
+                        <div class="inner">TYPE</div>
+                        <div class="inner">STATUS</div>
+                        <div class="inner">OWNER</div>
+                        <div class="inner">ACTION</div>
+                    </div>
+                    <div class="cell">
+                            <div class="inner">1228 Lawman Avenue, South...</div>
+                            <div class="inner">White Castaneda</div>
+                            <div class="inner">Condo</div>
+                            <div class="inner">New</div>
+                            <div class="inner">$45210.4</div>
+                            <i class="material-icons" id="clickableIcon">create</i>
+                    </div>
+                    <div class="cell">
+                            <div class="inner">1228 Lawman Avenue, South...</div>
+                            <div class="inner">White Castaneda</div>
+                            <div class="inner">Condo</div>
+                            <div class="inner">New</div>
+                            <div class="inner">$45210.4</div>
+                            <i class="material-icons" id="clickableIcon">create</i>
+                    </div>
+                    <div class="cell">
+                            <div class="inner">1228 Lawman Avenue, South...</div>
+                            <div class="inner">White Castaneda</div>
+                            <div class="inner">Condo</div>
+                            <div class="inner">New</div>
+                            <div class="inner">$45210.4</div>
+                            <i class="material-icons" id="clickableIcon">create</i>
+                    </div>
+                    <div class="cell">
+                            <div class="inner">1228 Lawman Avenue, South...</div>
+                            <div class="inner">White Castaneda</div>
+                            <div class="inner">Condo</div>
+                            <div class="inner">New</div>
+                            <div class="inner">$45210.4</div>
+                            <i class="material-icons" id="clickableIcon">create</i>
+                    </div>
+                    <div class="cell">
+                            <div class="inner">1228 Lawman Avenue, South...</div>
+                            <div class="inner">White Castaneda</div>
+                            <div class="inner">Condo</div>
+                            <div class="inner">New</div>
+                            <div class="inner">$45210.4</div>
+                            <i class="material-icons" id="clickableIcon">create</i>
+                    </div>
+                    <div class="cell">
+                            <div class="inner">1228 Lawman Avenue, South...</div>
+                            <div class="inner">White Castaneda</div>
+                            <div class="inner">Condo</div>
+                            <div class="inner">New</div>
+                            <div class="inner">$45210.4</div>
+                            <i class="material-icons" id="clickableIcon">create</i>
+                    </div>
+                    <div class="cell">
+                            <div class="inner">1228 Lawman Avenue, South...</div>
+                            <div class="inner">White Castaneda</div>
+                            <div class="inner">Condo</div>
+                            <div class="inner">New</div>
+                            <div class="inner">$45210.4</div>
+                            <i class="material-icons" id="clickableIcon">create</i>
+                    </div>
+                    <div class="cell">
+                            <div class="inner">1228 Lawman Avenue, South...</div>
+                            <div class="inner">White Castaneda</div>
+                            <div class="inner">Condo</div>
+                            <div class="inner">New</div>
+                            <div class="inner">$45210.4</div>
+                            <i class="material-icons" id="clickableIcon">create</i>
+                    </div>
+                </div>
+                <div class="footer">
+                   <div>Showing 1 to 8 of 35 elements</div>
+                   <div class="pages">
+                       <div><i class="material-icons" id="ic">first_page</i></div>
+                       <div><i class="material-icons" id="ic">keyboard_arrow_left</i></div>
+                       <button class="end" style="background-color: #dbdbdb">1</button>
+                       <button class="end">2</button>
+                       <button class="end">3</button>
+                       <button class="end">4</button>
+                       <button class="end">5</button>
+                       <button class="end">...</button>
+                       <button class="end">10</button>
+                       <div><i class="material-icons" id="ic">keyboard_arrow_right</i></div>
+                       <div><i class="material-icons" id="ic">last_page</i></div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
